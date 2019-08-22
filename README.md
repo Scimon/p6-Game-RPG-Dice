@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Scimon/p6-Game-RPG-Dice.svg?branch=master)](https://travis-ci.org/Scimon/p6-Game-RPG-Dice)
+
 NAME
 ====
 

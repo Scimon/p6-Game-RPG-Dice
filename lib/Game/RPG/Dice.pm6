@@ -1,6 +1,14 @@
 use v6.c;
 unit class Game::RPG::Dice:ver<0.0.1>:auth<cpan:SCIMON>;
 
+has Int $.size;
+has Int $.count;
+has Int $!total;
+
+method total () {
+    $!total //= [+] (1..$!size).roll($!count);
+    return $!total;
+}
 
 =begin pod
 

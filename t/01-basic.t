@@ -1,7 +1,5 @@
-use v6.c;
+use v6;
 use Test;
-use Game::RPG::Dice;
-
-pass "replace me";
+use-ok "Game::RPG::Dice";
 
 done-testing;
